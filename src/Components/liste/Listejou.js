@@ -18,24 +18,14 @@ export default class Listejou extends Component{
         return (
             <div>
                 <div className="content-wrapper">
-                        <div className="cont">
-                            <div className="sea-container">
-                                <form>
-                                    <input type="text" name="" placeholder="Search.." className="input"/>
-                                    {/*{Jsondata.map(val,key)=>{*/}
-                                    {/*    return  <div className='col-2'>*/}
-                                    {/*    <Card*/}
-                                    {/*    image={val.img}*/}
-                                    {/*    alt="joueur1"*/}
-                                    {/*    firstname={val.firstname}*/}
-                                    {/*    lastname={val.lastname}*/}
-
-                                    {/*    />*/}
-                                    {/*    </div>*/}
-                                    {/*}}*/}
-                                </form>
-                            </div>
-                         </div>
+                    <div className="cont">
+                        <div className="sea-container">
+                            <form>
+                                <input type="text" name="" placeholder="Search.." className="input"/>
+                                
+                            </form>
+                        </div>
+                    </div>
                     <div className="Box" >
                         <div className='row'>
 
@@ -116,21 +106,21 @@ export default class Listejou extends Component{
 
                         </div>
 
-                    {/*<div className="boxContainer">*/}
-                    {/*    /!*<table className="elementsContainer">*!/*/}
-                    {/*    /!*    <tr>*!/*/}
-                    {/*    /!*        <td>*!/*/}
-                    {/*    /!*            <input type="text" placeholder="Search" className="search-title"/>*!/*/}
-                    {/*    /!*        </td>*!/*/}
-                    {/*    /!*        <td>*!/*/}
-                    {/*    /!*            <a href="#" className="material-icon"> search</a>*!/*/}
-                    {/*    /!*        </td>*!/*/}
-                    {/*    /!*    </tr>*!/*/}
-                    {/*    /!*</table>*!/*/}
+                        {/*<div className="boxContainer">*/}
+                        {/*    /!*<table className="elementsContainer">*!/*/}
+                        {/*    /!*    <tr>*!/*/}
+                        {/*    /!*        <td>*!/*/}
+                        {/*    /!*            <input type="text" placeholder="Search" className="search-title"/>*!/*/}
+                        {/*    /!*        </td>*!/*/}
+                        {/*    /!*        <td>*!/*/}
+                        {/*    /!*            <a href="#" className="material-icon"> search</a>*!/*/}
+                        {/*    /!*        </td>*!/*/}
+                        {/*    /!*    </tr>*!/*/}
+                        {/*    /!*</table>*!/*/}
 
-                    {/*</div>*/}
+                        {/*</div>*/}
+                    </div>
                 </div>
-            </div>
             </div>
 
         )
